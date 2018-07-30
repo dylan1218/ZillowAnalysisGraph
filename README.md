@@ -10,3 +10,6 @@ Requirements:
   quandl
   
   
+Also added a simple Django app that writes the graph to a webpage 
+  
+  
