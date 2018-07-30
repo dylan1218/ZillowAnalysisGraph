@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  -webkit-text-size-adjust: 100%;
+  font-family: sans-serif;
+  background: #333;
+}
+body {
+  margin: 0;
+}
+header, main, aside, footer {
+  padding: 2em;
+}
+header {
+  background: lightgrey;
+}
+main {
+  background: white;
+}
+aside {
+  background: aliceblue;
+}
+footer {
+  color: white;
+  text-align: center;
+}
+@media (min-width: 600px) {
+  main, aside {
+    float: left;
+  }
+  main {
+    width: 70%;
+  }
+  aside {
+    width: 30%;
+  }
+  footer {
+    clear: both;
+  }
+}
