@@ -13,7 +13,7 @@ def index(request):
 
 	
 def ZillowGraph(info):
-	
+	#These are the inputs to generate the graph. I've only set YearFrom as the user input for now. More to be added
 	DayBoth = '30'
 	MonthBoth = '06'
 	YearFrom = info
@@ -21,7 +21,7 @@ def ZillowGraph(info):
 	Indicator = ['ZHVISF']
 	LocationCode = 'Z'
 	Locations = ['76633', '32751','07728']
-	quandl.ApiConfig.api_key = "NysKCsdEcqZ8sFDb3nDN"
+	quandl.ApiConfig.api_key = "ENTER_YOUR_API_KEY_HERE"
 	
 	mpl.style.use('seaborn')
 	f = plt.figure(facecolor='w')
