@@ -9,8 +9,6 @@ Requirements:
   matplotlib
   quandl
   
-  
-Also added a simple Django app that writes the graph to a webpage 
-  
-  
-![alt text](https://github.com/dylan1218/SimpleVBAGame/blob/master/ScreenshotOfBoard.PNG)
+
+Example: Simple Django app that writes the graph to a webpage 
+![alt text](https://github.com/dylan1218/ZillowAnalysisGraph/blob/master/WebPage%20Zillow%20Data%20Example.PNG)
